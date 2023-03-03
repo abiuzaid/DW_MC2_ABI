@@ -18,7 +18,7 @@ func main() {
 
 	fmt.Println("===HEROES DIBERI BUFF===")
 
-	powerUpNaruto := PowerUp(ProfileNaruto, 3)
+	powerUpNaruto := PowerUp(ProfileNaruto, 5)
 	fmt.Println("Name:", powerUpNaruto.Name)
 	fmt.Println("Health:", powerUpNaruto.Health)
 	fmt.Println("Power:", powerUpNaruto.Power)
